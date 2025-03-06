@@ -70,7 +70,7 @@ The model was tested on unseen data, and the best performance metrics are shown 
 | Precision | Recall | mAP50 | mAP50-95 |
 |-----------|--------|-------|----------|
 | 0.89234   | 0.87123 | 0.92145 | 0.85678 |
-![Results](assets/results.png)
+![Results](assets/res.png)
 
 ## 4. Image Detections
 The trained model is used to detect cracks in new images. Below are sample detections.
