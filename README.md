@@ -5,7 +5,7 @@ This project focuses on detecting cracks using deep learning techniques, leverag
 
 ---
 
-## 1. Synthetic Data Generation
+## 1. Synthetic Lable Data Generation
 To train the object detection model effectively, synthetic data is generated using various image techniques to simulate real-world crack patterns.
 
 ### Steps Involved:
