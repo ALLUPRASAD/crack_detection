@@ -1,7 +1,7 @@
 # Crack Detection using YOLOv12
 
 ## Overview
-This project focuses on detecting cracks using deep learning techniques, leveraging the YOLOv12 architecture for precise identification and localization.
+This project focuses on detecting cracks using deep learning techniques, leveraging the YOLOv12 architecture for precise localization and finding crack length.
 
 ---
 
