@@ -5,9 +5,16 @@
 Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
 
 1. Load base images  
+   ![Step 1: Load Base Images](images/load_base_images.png)  
+   ↓  
 2. Apply random transformations (rotation, noise, contrast, etc.)  
+   ![Step 2: Apply Transformations](images/apply_transformations.png)  
+   ↓  
 3. Generate labeled datasets for model training  
+   ![Step 3: Generate Labeled Dataset](images/generate_labeled_dataset.png)  
+   ↓  
 4. Save the generated dataset  
+   ![Step 4: Save Dataset](images/save_dataset.png)   
 
 ![Synthetic Data Sample](images/synthetic_data.png)
 
