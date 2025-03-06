@@ -54,7 +54,7 @@ A deep learning model is trained using a dataset of crack and non-crack images. 
 7. Save trained YOLOv12 model
 
 <p align="center">
-    <img src="assests/model_training.png" alt="Model Training Process" width="450" height="250">
+    <img src="assets/model_training.png" alt="Model Training Process" width="450" height="250">
 </p>
 
 ## 3. Results
