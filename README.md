@@ -45,14 +45,17 @@ Synthetic data is generated using various augmentation techniques to simulate re
 A deep learning model is trained using a dataset of crack and non-crack images. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
 
 ### Training Steps:
-1. Load dataset  
-2. Preprocess images  
-3. Train using CNN-based architecture  
-4. Validate on test dataset  
-5. Fine-tune hyperparameters  
-6. Save trained model  
+1. Load dataset
+2. Apply data augmentations (flipping, rotation, brightness adjustment, etc.)
+3. Preprocess images (resizing, mosaic,normalization, and annotation conversion)
+4. Train using YOLOv12 with pre-trained weights
+5. Validate model on test dataset and compute performance metrics
+6. Fine-tune hyperparameters to optimize accuracy
+7. Save trained YOLOv12 model
 
-![Model Training Process](images/model_training.png)
+<p align="center">
+    <img src="assests/model_training.png" alt="Model Training Process" width="450" height="250">
+</p>
 
 ## 3. Results
 The trained model achieves an accuracy of **X%** on the validation set. Below is the confusion matrix and loss/accuracy graph.
