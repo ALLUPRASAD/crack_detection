@@ -62,14 +62,14 @@ A deep learning model is trained using a dataset of crack and non-crack assets. 
     <img src="assets/model_training.png" alt="Model Training Process" width="550" height="150">
 </p>
 
-## Training Results
+### 4. Training Results
 The best results obtained during training are shown in the table below:
 
 | Epoch | Time (s) | Train Box Loss | Train Cls Loss | Train DFL Loss | Precision (B) | Recall (B) | mAP50 (B) | mAP50-95 (B) | Val Box Loss | Val Cls Loss | Val DFL Loss |
 |-------|---------|---------------|---------------|---------------|--------------|-----------|-----------|-------------|--------------|--------------|--------------|
 | 6     | 1712.26 | 1.11759       | 0.94894       | 1.36727       | 0.88584      | 0.86468   | 0.91809   | 0.84357     | 1.18579      | 0.91302      | 1.11045      |
 
-## 4. Test Results
+### 5. Test Results
 The model was tested on unseen data, and the best performance metrics are shown below:
 
 | Precision | Recall | mAP50 | mAP50-95 |
@@ -81,7 +81,7 @@ The model was tested on unseen data, and the best performance metrics are shown 
 </p>
 
 
-### 5. Image Detection with Crack Length
+### 6. Image Detection with Crack Length
 The trained model is used to detect cracks in new assets. Below are sample detections.
 
 <p align="center">
@@ -104,7 +104,7 @@ The trained model is used to detect cracks in new assets. Below are sample detec
     </table>
 </p>
 
-### 6. Video Demonstration
+### 7. Video Demonstration
 A GIF demonstrating the model’s real-time crack detection capabilities:
 
 <p align="center">
