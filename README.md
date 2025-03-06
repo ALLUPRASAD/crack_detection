@@ -98,3 +98,14 @@ The trained model is used to detect cracks in new assets. Below are sample detec
         </tr>
     </table>
 </p>
+
+### 6. Video Demonstration
+A demonstration video showcasing the model's performance is available below:
+
+<p align="center">
+    <video width="640" height="360" controls>
+        <source src="assets/d.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
+
