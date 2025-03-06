@@ -9,31 +9,32 @@ Synthetic data is generated using various augmentation techniques to simulate re
    <p align="center">
        <img src="assets/a.jpg" alt="Original Image" width="250" height="250">
    </p>  
-                                        .⬇  
+   <p align="center">⬇</p>  
 2. Detecting edges  
    <p align="center">
        <img src="assets/b.jpg" alt="Edge Detection" width="250" height="250">
    </p>  
-                                        .⬇
+   <p align="center">⬇</p>  
 3. Morphological Closing  
    <p align="center">
        <img src="assets/c.png" alt="Morphological Closing" width="250" height="250">
    </p>  
-                                        .⬇
+   <p align="center">⬇</p>  
 4. Bounding Boxes (Before Merging)  
    <p align="center">
        <img src="assets/d.jpg" alt="Bounding Boxes Before Merging" width="250" height="250">
    </p>  
-                                       .⬇ 
+   <p align="center">⬇</p>  
 5. Bounding Boxes (After Merging)  
    <p align="center">
        <img src="assets/e.jpg" alt="Bounding Boxes After Merging" width="250" height="250">
    </p>  
-                                       .⬇
+   <p align="center">⬇</p>  
 6. Final Bounding Boxes  
    <p align="center">
        <img src="assets/f.png" alt="Final Bounding Boxes" width="250" height="250">
    </p>  
+   <p align="center">⬇</p>  
 
 
 ## 2. Model Training
