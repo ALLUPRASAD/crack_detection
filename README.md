@@ -4,7 +4,7 @@
 ## 1. Synthetic Data Generation
 Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
 
-1. Load base images  
+1. Load base images
    *Original Image used as input for annotation generation.*  
    <p align="center">
        <img src="assets/a.jpg" alt="Original Image" width="250" height="250">
@@ -42,12 +42,12 @@ Synthetic data is generated using various augmentation techniques to simulate re
 
 
 ## 2. Model Training
-A deep learning model is trained using a dataset of crack and non-crack images. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
+A deep learning model is trained using a dataset of crack and non-crack assets. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
 
 ### Training Steps:
 1. Load dataset
 2. Apply data augmentations (mosaic,flipping, rotation, brightness adjustment, etc.)
-3. Preprocess images (resizing,normalization, and annotation conversion)
+3. Preprocess assets (resizing,normalization, and annotation conversion)
 4. Train using YOLOv12 with pre-trained weights
 5. Validate model on test dataset and compute performance metrics
 6. Fine-tune hyperparameters to optimize accuracy
@@ -76,11 +76,25 @@ The model was tested on unseen data, and the best performance metrics are shown 
 </p>
 
 
-## 4. Image Detections
-The trained model is used to detect cracks in new images. Below are sample detections.
+### 5. Image Detection with Crack Length
+The trained model is used to detect cracks in new assets. Below are sample detections.
 
-![Crack Detections](images/crack_detections.png)
-
-EOL
-
-echo "README.md has been successfully created!"
+<p align="center">
+    <table>
+        <tr>
+            <td><img src="assets/1.jpg" alt="Crack Detection 1" width="250" height="250"></td>
+            <td><img src="assets/2.jpg" alt="Crack Detection 2" width="250" height="250"></td>
+            <td><img src="assets/3.jpg" alt="Crack Detection 3" width="250" height="250"></td>
+        </tr>
+        <tr>
+            <td><img src="assets/4.jpg" alt="Crack Detection 4" width="250" height="250"></td>
+            <td><img src="assets/6.jpg" alt="Crack Detection 5" width="250" height="250"></td>
+            <td><img src="assets/7.jpg" alt="Crack Detection 6" width="250" height="250"></td>
+        </tr>
+        <tr>
+            <td><img src="assets/8.jpg" alt="Crack Detection 7" width="250" height="250"></td>
+            <td><img src="assets/9.jpg" alt="Crack Detection 8" width="250" height="250"></td>
+            <td><img src="assets/10.jpg" alt="Crack Detection 9" width="250" height="250"></td>
+        </tr>
+    </table>
+</p>
