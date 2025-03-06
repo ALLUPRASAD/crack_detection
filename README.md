@@ -4,37 +4,41 @@
 ## 1. Synthetic Data Generation
 Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
 
-
 1. Load base images  
+   *Original Image used as input for annotation generation.*  
    <p align="center">
        <img src="assets/a.jpg" alt="Original Image" width="250" height="250">
    </p>  
    <p align="center">⬇</p>  
 2. Detecting edges  
+   *Applying edge detection techniques to highlight crack regions.*  
    <p align="center">
        <img src="assets/b.jpg" alt="Edge Detection" width="250" height="250">
    </p>  
    <p align="center">⬇</p>  
 3. Morphological Closing  
+   *Closing gaps in detected edges to refine crack representation.*  
    <p align="center">
        <img src="assets/c.png" alt="Morphological Closing" width="250" height="250">
    </p>  
    <p align="center">⬇</p>  
 4. Bounding Boxes (Before Merging)  
+   *Initial bounding boxes before merging overlapping regions.*  
    <p align="center">
        <img src="assets/d.jpg" alt="Bounding Boxes Before Merging" width="250" height="250">
    </p>  
    <p align="center">⬇</p>  
 5. Bounding Boxes (After Merging)  
+   *Refined bounding boxes after merging to create a final annotation.*  
    <p align="center">
        <img src="assets/e.jpg" alt="Bounding Boxes After Merging" width="250" height="250">
    </p>  
    <p align="center">⬇</p>  
 6. Final Bounding Boxes  
+   *Finalized bounding boxes ready for training YOLOv12 model.*  
    <p align="center">
        <img src="assets/f.png" alt="Final Bounding Boxes" width="250" height="250">
    </p>  
-   <p align="center">⬇</p>  
 
 
 ## 2. Model Training
