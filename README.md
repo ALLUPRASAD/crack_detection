@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 # Create README.md file
 echo "# Crack Detection" > README.md
