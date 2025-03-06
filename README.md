@@ -11,7 +11,7 @@ Synthetic data is generated using various augmentation techniques to simulate re
    ![Edge Detection](assets/b.jpg)  
    ↓  
 3. Morphological Closing  
-   ![Morphological Closing](assets/c.jpg)  
+   ![Morphological Closing](assets/c.png)  
    ↓  
 4. Bounding Boxes (Before Merging)  
    ![Bounding Boxes Before Merging](assets/d.jpg)  
@@ -20,7 +20,7 @@ Synthetic data is generated using various augmentation techniques to simulate re
    ![Bounding Boxes After Merging](assets/e.jpg)  
    ↓  
 6. Final Bounding Boxes  
-   ![Final Bounding Boxes](assets/f.jpg)  
+   ![Final Bounding Boxes](assets/f.png)  
 
 ## 2. Model Training
 A deep learning model is trained using a dataset of crack and non-crack images. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
