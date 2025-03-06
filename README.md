@@ -1,7 +1,4 @@
-#!/bin/bash
 
-# Create or overwrite README.md file
-cat <<EOL > README.md
 # Crack Detection
 
 ## 1. Synthetic Data Generation
