@@ -5,18 +5,22 @@
 Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
 
 1. Load base images  
-   ![Step 1: Load Base Images](images/load_base_images.png)  
+   ![Original Image](assets/a.jpg)  
    ↓  
-2. Apply random transformations (rotation, noise, contrast, etc.)  
-   ![Step 2: Apply Transformations](images/apply_transformations.png)  
+2. Detecting edges  
+   ![Edge Detection](assets/b.jpg)  
    ↓  
-3. Generate labeled datasets for model training  
-   ![Step 3: Generate Labeled Dataset](images/generate_labeled_dataset.png)  
+3. Morphological Closing  
+   ![Morphological Closing](assets/c.jpg)  
    ↓  
-4. Save the generated dataset  
-   ![Step 4: Save Dataset](images/save_dataset.png)   
-
-![Synthetic Data Sample](images/synthetic_data.png)
+4. Bounding Boxes (Before Merging)  
+   ![Bounding Boxes Before Merging](assets/d.jpg)  
+   ↓  
+5. Bounding Boxes (After Merging)  
+   ![Bounding Boxes After Merging](assets/e.jpg)  
+   ↓  
+6. Final Bounding Boxes  
+   ![Final Bounding Boxes](assets/f.jpg)  
 
 ## 2. Model Training
 A deep learning model is trained using a dataset of crack and non-crack images. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
