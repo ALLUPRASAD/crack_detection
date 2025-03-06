@@ -1,9 +1,14 @@
+# Crack Detection using YOLOv12
 
-# Crack Detection
+## Overview
+This project focuses on detecting cracks using deep learning techniques, leveraging the YOLOv12 architecture for precise identification and localization.
+
+---
 
 ## 1. Synthetic Data Generation
-Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
+To train the model effectively, synthetic data is generated using various augmentation techniques to simulate real-world crack patterns.
 
+### Steps Involved:
 1. Load base images
    *Original Image used as input for annotation generation.*  
    <p align="center">
