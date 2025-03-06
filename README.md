@@ -57,6 +57,13 @@ A deep learning model is trained using a dataset of crack and non-crack images. 
     <img src="assets/model_training.png" alt="Model Training Process" width="550" height="150">
 </p>
 
+## Training Results
+The best results obtained during training are shown in the table below:
+
+| Epoch | Time (s) | Train Box Loss | Train Cls Loss | Train DFL Loss | Precision (B) | Recall (B) | mAP50 (B) | mAP50-95 (B) | Val Box Loss | Val Cls Loss | Val DFL Loss |
+|-------|---------|---------------|---------------|---------------|--------------|-----------|-----------|-------------|--------------|--------------|--------------|
+| 6     | 1712.26 | 1.11759       | 0.94894       | 1.36727       | 0.88584      | 0.86468   | 0.91809   | 0.84357     | 1.18579      | 0.91302      | 1.11045      |
+
 ## 3. Results
 The trained model achieves an accuracy of **X%** on the validation set. Below is the confusion matrix and loss/accuracy graph.
 
