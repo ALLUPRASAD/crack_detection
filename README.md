@@ -46,8 +46,8 @@ A deep learning model is trained using a dataset of crack and non-crack images. 
 
 ### Training Steps:
 1. Load dataset
-2. Apply data augmentations (flipping, rotation, brightness adjustment, etc.)
-3. Preprocess images (resizing, mosaic,normalization, and annotation conversion)
+2. Apply data augmentations (mosaic,flipping, rotation, brightness adjustment, etc.)
+3. Preprocess images (resizing,normalization, and annotation conversion)
 4. Train using YOLOv12 with pre-trained weights
 5. Validate model on test dataset and compute performance metrics
 6. Fine-tune hyperparameters to optimize accuracy
