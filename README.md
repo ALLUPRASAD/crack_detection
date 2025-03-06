@@ -4,23 +4,37 @@
 ## 1. Synthetic Data Generation
 Synthetic data is generated using various augmentation techniques to simulate real-world crack patterns. Below are the steps:
 
+
 1. Load base images  
-   ![Original Image](assets/a.jpg)  
+   <p align="center">
+       <img src="assets/a.jpg" alt="Original Image" width="512" height="512">
+   </p>  
    ↓  
 2. Detecting edges  
-   ![Edge Detection](assets/b.jpg)  
+   <p align="center">
+       <img src="assets/b.jpg" alt="Edge Detection" width="512" height="512">
+   </p>  
    ↓  
 3. Morphological Closing  
-   ![Morphological Closing](assets/c.png)  
+   <p align="center">
+       <img src="assets/c.png" alt="Morphological Closing" width="512" height="512">
+   </p>  
    ↓  
 4. Bounding Boxes (Before Merging)  
-   ![Bounding Boxes Before Merging](assets/d.jpg)  
+   <p align="center">
+       <img src="assets/d.jpg" alt="Bounding Boxes Before Merging" width="512" height="512">
+   </p>  
    ↓  
 5. Bounding Boxes (After Merging)  
-   ![Bounding Boxes After Merging](assets/e.jpg)  
+   <p align="center">
+       <img src="assets/e.jpg" alt="Bounding Boxes After Merging" width="512" height="512">
+   </p>  
    ↓  
 6. Final Bounding Boxes  
-   ![Final Bounding Boxes](assets/f.png)  
+   <p align="center">
+       <img src="assets/f.png" alt="Final Bounding Boxes" width="512" height="512">
+   </p>  
+
 
 ## 2. Model Training
 A deep learning model is trained using a dataset of crack and non-crack images. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
