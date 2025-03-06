@@ -64,10 +64,13 @@ The best results obtained during training are shown in the table below:
 |-------|---------|---------------|---------------|---------------|--------------|-----------|-----------|-------------|--------------|--------------|--------------|
 | 6     | 1712.26 | 1.11759       | 0.94894       | 1.36727       | 0.88584      | 0.86468   | 0.91809   | 0.84357     | 1.18579      | 0.91302      | 1.11045      |
 
-## 3. Results
-The trained model achieves an accuracy of **X%** on the validation set. Below is the confusion matrix and loss/accuracy graph.
+## 4. Test Results
+The model was tested on unseen data, and the best performance metrics are shown below:
 
-![Results](images/results.png)
+| Precision | Recall | mAP50 | mAP50-95 |
+|-----------|--------|-------|----------|
+| 0.89234   | 0.87123 | 0.92145 | 0.85678 |
+![Results](assets/results.png)
 
 ## 4. Image Detections
 The trained model is used to detect cracks in new images. Below are sample detections.
