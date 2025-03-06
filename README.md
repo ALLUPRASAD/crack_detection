@@ -108,6 +108,6 @@ The trained model is used to detect cracks in new assets. Below are sample detec
 A GIF demonstrating the model’s real-time crack detection capabilities:
 
 <p align="center">
-    <img src="videos/dd.gif" width="640">
+    <img src="assets/dd.gif" width="640">
 </p>
 
