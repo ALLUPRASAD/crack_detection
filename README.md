@@ -1,7 +1,6 @@
 
 
-# Create README.md file
-echo "# Crack Detection" > README.md
+# Crack Detection
 
 echo "
 ## 1. Synthetic Data Generation
