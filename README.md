@@ -121,3 +121,7 @@ A GIF demonstrating the model’s real-time crack detection capabilities:
     <img src="assets/dd.gif" width="640">
 </p>
 
+### 8. Next Steps
+1. Future Action utilized the already trained model to generate accurate crack detection labels which will detect microcracks present in the image.  
+2. These labels enhance the precision of crack identification.  
+3. This further improves the overall mapping accuracy for structural analysis.
