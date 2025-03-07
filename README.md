@@ -47,8 +47,18 @@ To train the object detection model effectively, synthetic data is generated usi
 
 
 ## 2. Model Training
-A deep learning model is trained using a dataset of crack and non-crack assets. The model architecture is based on CNNs (e.g., ResNet, MobileNet).
-
+A deep learning model is trained using a dataset of crack and non-crack assets. The model architecture is based on CNNs yolov12 (Cross Stage DarkNet53).
+Create data.yaml file which containes train,val and test training images and labels  
+  
+      train : data/data/train/images
+      
+      val : data/data/val/images
+      
+      test : data/data/test/images
+      
+      nc : 1
+      
+      names: ["BrickBolt_Crack"] 
 ### Training Steps:
 1. Load dataset
 2. Apply data augmentations (mosaic,flipping, rotation, brightness adjustment, etc.)
