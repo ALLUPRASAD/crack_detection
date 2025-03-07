@@ -70,7 +70,7 @@ The best results obtained during training are shown in the table below:
 | 6     | 1712.26 | 1.11759       | 0.94894       | 1.36727       | 0.88584      | 0.86468   | 0.91809   | 0.84357     | 1.18579      | 0.91302      | 1.11045      |
 
 ### 5. Test Results
-The model was tested on unseen data, and the best performance metrics are shown below:
+The model was tested on unseen data of 1980 images, and the best performance metrics are shown below:
 
 | Precision | Recall | mAP50 | mAP50-95 |
 |-----------|--------|-------|----------|
