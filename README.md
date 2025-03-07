@@ -87,9 +87,16 @@ The model was tested on unseen data of 1980 images, and the best performance met
 | 0.89234   | 0.87123 | 0.92145 | 0.85678 |
 
 <p align="center">
-    <img src="assets/res.png" alt="Model Training Process" width="550" height="550">
+    
 </p>
-
+<p align="center">
+    <table>
+        <tr>
+            <td><img src="assets/res.png" alt="Model Training Process" width="550" height="550"></td>
+            <td><img src="assets/res1.png" alt="Model Training Process" width="550" height="550"></td>
+        </tr>
+    </table>
+</p>
 
 ### 6. Image Detection with Crack Length
 The trained model is used to detect cracks in new assets. Below are sample detections.
