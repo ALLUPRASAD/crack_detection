@@ -90,8 +90,8 @@ The model was tested on unseen data of 1980 images, and the best performance met
 <p align="center">
     <table align="center">
         <tr>
-            <td><img src="assets/res.png" alt="Model Training Process" width="550" height="550"></td>
-            <td><img src="assets/res1.png" alt="Model Training Process" width="550" height="550"></td>
+            <td><img src="assets/res.png" alt="Model Training Process" width="450" height="550"></td>
+            <td><img src="assets/res1.png" alt="Model Training Process" width="450" height="550"></td>
         </tr>
     </table>
 </p>
